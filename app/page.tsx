@@ -11,6 +11,7 @@ import ImmersiveScene from "@/components/home/ImmersiveScene";
 import ProcessJourney from "@/components/home/ProcessJourney";
 import WhyScene from "@/components/home/WhyScene";
 import ConsultationChapter from "@/components/home/ConsultationChapter";
+import CinematicTestimonials from "@/components/home/CinematicTestimonials";
 
 export default function HomePage() {
   return <>
@@ -31,6 +32,7 @@ export default function HomePage() {
           <Reveal className="launch-faq-list"><FAQ /></Reveal>
         </div>
       </section>
+      <CinematicTestimonials />
       <ConsultationChapter />
     </main>
     <Footer />
